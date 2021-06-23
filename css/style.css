@@ -1,0 +1,411 @@
+/*GOOGLE FORMS*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto:wght@100&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+header section {
+    overflow: hidden;
+}
+
+:root {
+    --Raleway-font: "Raleway", cursive;
+    --Roboto: "Roboto", cursive;
+    --Ubuntu: "Ubuntu", cursive;
+    --GoblinOne: "GoblinOne", cursive;
+    --KdamThmor: "KdamThmor", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(#00ccff, #6200ff);
+
+    --light-gray: rgba(255, 255, 255, 0.877)
+}
+
+.background-img {
+
+    background: url(/assets/background.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header i {
+    color: white;
+}
+
+
+header a {
+
+    font-family: var(--GoblinOne);
+    font-size: 0.9em;
+    color: white;
+}
+
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .nav-item {
+    padding: 0.5em;
+    color: white;
+}
+
+header .navbar-brand {
+
+    padding-left: 8rem;
+
+}
+
+header .center {
+
+    margin: auto;
+    width: 100%;
+    border: 3px solid white;
+    padding: 10px;
+
+}
+
+
+header .nav-link:hover {
+    color: white;
+}
+
+header .row .col-md-5 {
+
+    padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-12 {
+
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+    font-family: var(--GoblinOne);
+    color: white;
+}
+
+header .row .col-md-5 img {
+
+    width: 90%;
+}
+
+header .container .col-md-7 h6 {
+
+    padding: 5vmin;
+    letter-spacing: 16px;
+
+}
+
+header .container .col-md-7 h1 {
+
+    font-size: 8.5vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+
+}
+
+header .container .col-md-7 button {
+
+    border-radius: 30px;
+    font-weight: bold;
+
+}
+
+.see-more-bt {
+
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    margin: 10vmin;
+    padding: 0.3vmin;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    transform: scale(1.3, 1.3);
+    transition-duration: 0.4s;
+
+}
+
+.see-more-bt:hover {
+
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: var(--bggradient);
+    /* Green */
+    color: white;
+}
+
+
+/*SECTION 1*/
+
+.section-1 {
+    padding: 20vmin 0;
+}
+
+.section-1 .row .col-md-6 .myself img {
+
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 0.9em;
+}
+
+.section-1 .row .col-md-6:last-child {
+    position: relative;
+    /*COMANDO SERVE PARA METER O TEXTO A FLUTUAR POR CIMA DA IMG*/
+}
+
+.section-1 .row .col-md-6 .panel {
+    position: absolute;
+    top: 7vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20 vmin 10vmin;
+    /*Padding para esquerda, direita, cima, baixo*/
+    box-shadow: 0px 25px 42px rgb(0, 0, 0, 0.2);
+    font-family: var(--GoblinOne);
+    z-index: 1;
+}
+
+.section-1 .row .col-md-6 .panel h1 {
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+}
+
+.section-1 .row .col-md-6 .panel p {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.4);
+
+}
+
+
+/*SECTION 2*/
+
+
+.cover {
+    width: 100%;
+    height: 55vmin;
+    background: url(/assets/background.jpg);
+    background-position: center;
+    background-size: 150%;
+    position: relative;
+
+}
+
+.cover .content {
+    background: rgb(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+
+}
+
+.cover .content>h1 {
+
+    position: relative;
+    bottom: 90px;
+    font-family: var(--GoblinOne);
+    font-size: 6vmin;
+    color: white;
+}
+
+.cover .content>p {
+    position: relative;
+    bottom: 50px;
+    font-family: var(--GoblinOne);
+    font-size: 2.5vmin;
+    color: #e5e5e5;
+}
+
+.programs .rect {
+
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: .5rem;
+    box-shadow: 1px 2px 50px 0px rgb(52, 108, 180);
+
+}
+
+.programs {
+
+    margin-top: -20vmin;
+}
+
+.programs .rect:hover {
+
+    transform: scale(1.2);
+}
+
+.programs .rect h1 {
+    font-size: 2rem;
+    color: tomato;
+
+}
+
+.projects {
+
+
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+    font-family: var(--GoblinOne);
+}
+
+.projects .cards .card {
+
+    width: 22rem;
+    margin: 3vmin;
+}
+
+.cards div {
+
+    padding: 0;
+    margin: 0;
+}
+
+.cards .title {
+
+    background: rgba(180, 206, 240, 0.199);
+    margin: 3vmin;
+    padding: 0.4rem 1.5rem;
+    font-size: 2vmin;
+}
+
+.card .card-text {
+
+    padding: 2.5rem 3rem;
+
+}
+
+.card .btn1 {
+
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    background: none;
+    color: rgb(196, 181, 181);
+    width: 150px;
+    height: 35px;
+    border: 1px solid #00ccffb2;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: .6s;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+
+}
+
+.card .btn1 {
+    float: center;
+    margin: 6vmin;
+}
+
+.card .btn1:focus {
+    outline: none;
+}
+
+.card .btn1::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgb(255, 255, 255, .5);
+    width: 60px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .5s;
+    filter: blur(30px);
+    transform: translateY(-130px) skewX(-15deg);
+}
+
+.card .btn1::after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    width: 60px;
+    height: 100%;
+    left: 30px;
+    top: 0;
+    opacity: 0;
+    filter: blur(30px);
+    transform: translate(-100px) scaleX(-15deg);
+}
+
+
+.card .btn1:hover {
+    background: var(--bggradient);
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.card .btn1:hover:before {
+    transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+}
+
+.card .btn1:hover:after {
+    transform: translateX(300px) skewX(-15deg);
+    opacity: 1;
+    transition: .7s;
+}
+
+/*FOOTER*/
+
+footer {
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+
+}
+
+footer p>span {
+
+    color: rgb(40, 113, 207);
+}
+
+footer input {
+
+    border: none !important;
+
+}
+
+footer input::placeholder {
+
+    color: white !important;
+}
+
+footer .input-group .input-group-text {
+
+    background: var(--bggradient);
+    border: none;
+}
+
+footer .dc {
+    padding: 0.5vmin;
+}
+
+footer .columm i {
+
+    color: rgb(40, 113, 207);
+}
+
+footer .columm i+i {
+
+    padding: 0 0.5em;
+}
