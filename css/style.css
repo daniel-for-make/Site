@@ -29,6 +29,7 @@ header section {
     background: url(/assets/background.jpg);
     width: 100%;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: 100%;
 }
 
