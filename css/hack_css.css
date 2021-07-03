@@ -439,11 +439,15 @@ footer .columm i+i {
 
 
 .contenthack {
-    display: none;
-    background-color: lightgrey;
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
+
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+
+    border: 5.5px solid rgb(37, 97, 165);
+    padding: 30px;
+    margin: 30px;
+
 
 }
+
+.contenthack p {}
