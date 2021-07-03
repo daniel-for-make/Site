@@ -424,7 +424,9 @@ footer .columm i+i {
 
 
 /* HACK PAGE  */
-.section-1-hack {}
+.section-1-hack {
+    background-color: transparent;
+}
 
 .tryhackme img {
 
@@ -442,7 +444,7 @@ footer .columm i+i {
 
     background-color: rgb(255, 255, 255);
     width: 600px;
-
+    display: none;
     border: 5.5px solid rgb(37, 97, 165);
     padding: 30px;
     margin: 30px;
