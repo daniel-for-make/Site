@@ -32,11 +32,34 @@ header section {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
-
+    padding-top: 2.2vmin;
+    padding-bottom: 10vmin;
 
 
 
 }
+
+
+.nav_links {
+    list-style-type: none;
+
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav_links li a:hover {
+    color: rgba(62, 62, 131, 0.667);
+}
+
 
 header i {
     color: white;
@@ -87,11 +110,12 @@ header .row .col-md-5 {
 
 header .row .col-md-12 {
 
-    padding: 22vmin 1vmin;
-    padding-bottom: 35vmin;
+    padding: 15vmin 0.5vmin;
+    padding-bottom: 15vmin;
     font-family: var(--GoblinOne);
     color: white;
 }
+
 
 header .row .col-md-5 img {
 
@@ -423,16 +447,32 @@ footer .columm i+i {
     margin: auto;
     background-color: transparent;
     overflow: auto;
-    padding: 8px 20px;
-    border: 1px solid var(--primary);
+    padding: 8px 10px 30px;
+    border: 1px solid white;
     transition: all 0.3s ease-out;
     position: relative;
-
     color: white;
+
+}
+
+.texto_central:hover {
+    background-color: rgba(110, 110, 100, 0.39);
+    -ms-transform: scale(0.3);
+    /* IE 9 */
+    -webkit-transform: scale(0.3);
+    /* Safari 3-8 */
+    transform: scale(0.99);
 }
 
 .texto_central h1 {
     color: white;
     font-size: 50px;
+
+}
+
+.texto_central p {
+    color: rgb(255, 254, 254);
+    font-size: 20px;
+    font-family: bold;
 
 }
