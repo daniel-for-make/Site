@@ -318,9 +318,6 @@ header .container .col-md-7 button {
 
 img{
     width: 40%;
-    padding: 3vmin;
-  
-    margin-left: 19vmin;
    
 }
 
@@ -362,9 +359,7 @@ img{
 }
 .cardd h2{
     font-size: 20px;
-    margin-bottom: 25px;
-   
-    padding-left: 24vmin;
+    margin-bottom: 20px;
 }
 
 .cardd .more-btn
@@ -429,17 +424,12 @@ img{
 .more-text.active{
     bottom: 0;
 }
-
-.more-text p a{
-
-    text-decoration:none;
-}
-
 /*.cards div {
 
     padding: 0;
     margin: 0;
 }
+
 .cards .title {
 
     background: rgba(180, 206, 240, 0.199);
@@ -535,9 +525,14 @@ img{
 /*FOOTER*/
 
 footer {
+
     background: rgba(0, 0, 0, 0.815);
-    overflow-x: hidden;
+   
     padding: 14vmin 18vmin;
+
+
+     overflow-x: hidden;
+
 
 }
 
