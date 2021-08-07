@@ -66,6 +66,11 @@ header .navbar-brand {
 
 }
 
+header a i:hover {
+    color: rgba(62, 62, 131, 0.667);
+
+}
+
 header .center {
 
     margin: auto;
